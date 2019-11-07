@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "SuperRetro";
+    src: url("font/super_retro_m54-webfont.woff") format("woff"),
+    url("font/super_retro_m54-webfont.woff2") format("woff")
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: "SuperRetro";
+}
+
+.btn-open {
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+
+.btn-document {
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+
+.btn-behance {
+    background-color: rgb(255, 228, 0);
+    color: white;
+    width: 100%;
+}
