@@ -9,28 +9,75 @@ html, body {
     overflow-x: hidden;
 }
 
+.nav-link {
+    padding: 0;
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    font-family: "SuperRetro";
+}
+
+#nav-first:hover {
+    color: blue;
+    border-bottom: solid 5px blue;
+}
+
+#nav-second:hover {
+    color: red;
+    border-bottom: solid 5px red;
+}
+
+#nav-third:hover {
+    color: rgb(255, 228, 0);
+    border-bottom: solid 5px rgb(255, 228, 0);
+}
+
 .wrapper {
     margin-top: 30px;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
+    color: #000;
     font-family: "SuperRetro";
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-title {
+    text-align: justify;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-body {
+    padding: 15px;
+    padding-bottom: 0;
 }
 
 .btn-open {
     background-color: blue;
     color: white;
     width: 100%;
+    border-radius: 0;
 }
 
 .btn-document {
     background-color: red;
     color: white;
     width: 100%;
+    border-radius: 0;
 }
 
 .btn-behance {
     background-color: rgb(255, 228, 0);
     color: white;
     width: 100%;
+    border-radius: 0;
 }
