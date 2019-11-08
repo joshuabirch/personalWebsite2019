@@ -17,17 +17,17 @@
     
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>    
             </button>
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
                 <ul class="navbar-nav text-center">
                     <li class="nav-item">
-                        <a id="nav-first" class="nav-link" href="#">Home</a>
+                        <a id="nav-first" class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a id="nav-second" class="nav-link" href="#header-content">Portfolio</a>
+                        <a id="nav-second" class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a id="nav-third" class="nav-link" target="_blank" href="https://blog.joshbirchdesign.co.uk">Blog</a>
@@ -36,7 +36,7 @@
             </div>
         </nav>
 
-        <div id="header-content">
+        <div class="header-content">
             <div class="wrapper">
                 <div class="container">
                     <div class="row">
@@ -46,20 +46,26 @@
                             </div>
                             <h1 class="text-center">Josh Birch Design</h1>
                             <p class="text-center">Student • Designer • Developer</p>
-                            <p class="text-center"><i class="fab fa-facebook fa-2x"></i> <i class="fab fa-twitter-square fa-2x"></i> <i class="fab fa-instagram fa-2x"></i> <i class="fab fa-linkedin fa-2x"></i></p>
+                            <p class="text-center"><a href="#" target="_blank" class="text-muted"><i class="fab fa-facebook fa-2x"></i></a>&nbsp;<a href="https://twitter.com/jxshbirch" class="text-muted" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>&nbsp;<a href="https://instagram.com/josh_birch_" class="text-muted" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>&nbsp;<a href="https://linkedin.com/in/birchjosh" class="text-muted" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
                         </div>
                     </div>
 
-                    <div class="row p-3">
-                            <div class="col-md-4">
+                    <div class="row m-1">
+                        <div class="col-12 d-flex justify-content-center">
+                            <a href="#" class="btn btn-cv p-3">HIRE ME&nbsp;&nbsp;&nbsp;<i class="fas fa-file-download"></i></a>
+                        </div>
+                    </div>
+
+                    <div id="portfolio" class="row p-3">
+                            <div class="col-md-4 p-2">
                                 <div class="card h-100">
-                                    <img src="img/spacerace.png" class="card-img-top" alt="...">
+                                    <img src="img/carcard.jpeg.png" class="card-img-top" alt="...">
                                     <div class="card-body d-flex flex-column">
                                         <h2 class="card-title">CarCat.</h2>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <div class="row mt-auto">
                                             <div class="col-md-4 m-0 p-0">
-                                                <a href="https://joshbirchdesign.co.uk/spacerace/" target="_blank" class="btn btn-open"><i class="fas fa-external-link-alt"></i></a>
+                                                <a href="https://joshbirchdesign.co.uk/carcat/" target="_blank" class="btn btn-open"><i class="fas fa-external-link-alt"></i></a>
                                             </div>
                                             <div class="col-md-4 m-0 p-0">
                                                 <a href="#" class="btn btn-document"><i class="fas fa-file"></i></a>
@@ -71,7 +77,7 @@
                                     </div>
                                 </div>
                             </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 p-2">
                             <div class="card h-100">
                                 <img src="img/spacerace.png" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
@@ -91,7 +97,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 p-2">
                             <div class="card h-100">
                                 <img src="img/av1874.png" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
@@ -114,28 +120,8 @@
                         
                     </div>
 
-                    <div class="row p-3">
-                        <div class="col-md-4">
-                            <div class="card h-100">
-                                <img src="img/buzzart-studios-2016.png" class="card-img-top" alt="...">
-                                <div class="card-body d-flex flex-column">
-                                    <h2 class="card-title">Buzzart Studios 2016</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <div class="row">
-                                        <div class="col-md-4 m-0 p-0">
-                                            <a href="#" class="btn btn-open"><i class="fas fa-external-link-alt"></i></a>
-                                        </div>
-                                        <div class="col-md-4 m-0 p-0">
-                                            <a href="#" class="btn btn-document"><i class="fas fa-file"></i></a>
-                                        </div>
-                                        <div class="col-md-4 m-0 p-0">
-                                            <a href="#" class="btn btn-behance"><i class="fab fa-behance-square"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
+                    <div class="row m-1">
+                        <div class="col-md-4 p-2">
                             <div class="card h-100">
                                 <img src="img/buzzart-studios-2017.png" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
@@ -155,6 +141,26 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4 p-2">
+                            <div class="card h-100">
+                                <img src="img/buzzart-studios-2016.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column">
+                                    <h2 class="card-title">Buzzart Studios 2016</h2>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="row">
+                                        <div class="col-md-4 m-0 p-0">
+                                            <a href="#" class="btn btn-open"><i class="fas fa-external-link-alt"></i></a>
+                                        </div>
+                                        <div class="col-md-4 m-0 p-0">
+                                            <a href="https://github.com/joshuabirch/CarCat" target="_blank" class="btn btn-document"><i class="fas fa-file"></i></a>
+                                        </div>
+                                        <div class="col-md-4 m-0 p-0">
+                                            <a href="#" class="btn btn-behance"><i class="fab fa-behance-square"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -174,8 +180,35 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- <script src="smoothscroll.js"></script> -->
+        <script>
+            $(document).ready(function(){
+                // Add smooth scrolling to all links
+                $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+    
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            }); 
+        });
+    </script>
     </body>
 </html>
