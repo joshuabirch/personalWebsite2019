@@ -50,6 +50,32 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-twitter-square:hover {
+    color: blue;
+}
+
+.fa-instagram:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: red;
+}
+
+.fa-github:hover {
+    color: rgb(255, 228, 0);
+}
+
+.fa-behance:hover {
+    color: rgb(255, 228, 0);
+}
+
+
+
 .card {
     border-radius: 0;
 }
